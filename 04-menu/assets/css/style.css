@@ -16,7 +16,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #9CC1E3;
 }
 
@@ -66,12 +66,16 @@ body {
 
 /* NAVBAR - SEARCH BAR */
 
-.searchbar-container{
+.searchbar-container {
     width: 400px;
 }
+
 .searchbar {
+    background: url(../images/magnifying-glass-solid.png) no-repeat 14px;
+    background-size: 16px;
     background-color: #EEF3F8;
     border: none;
+    box-shadow: none;
     border-radius: 5px;
     height: 34px;
     width: 280px;
@@ -106,6 +110,7 @@ body {
     font-size: 19px;
 
 }
+
 .navbar-icon {
     height: 24px;
     width: 24px;
@@ -117,14 +122,16 @@ body {
     padding-top: 1px;
     font-size: 12px;
 }
-.btn-premium{
+
+.btn-premium {
     width: 152px;
 }
 
-.btn-navbar-item:hover{
+.btn-navbar-item:hover {
     color: #161616;
     transition: color 500ms ease;
 }
-.btn-premium:hover{
+
+.btn-premium:hover {
     text-decoration: underline;
 }
